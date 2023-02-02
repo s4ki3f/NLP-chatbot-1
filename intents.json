@@ -1,0 +1,18 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good afternoon", "Good evening", "Welcome", "Howdy", "Greetings", "Sup", "Namaste", "Hola", "Bonjour", "Ciao", "Olá", "Hallo", "Zdravstvuyte"],
+            "responses": ["Hi, How are you doing"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Farewell", "Bye", "Bye-bye", "Adios", "See you later", "See you soon", "Catch you later", "Take care", "Have a nice day", "So long", "Peace out", "Ciao", "Adieu", "Auf Wiedersehen", "Arrivederci"],
+            "responses": ["ja, matane", "saionara!!!"]
+        },
+        {
+            "tag": "tired",
+            "patterns": ["Exhausted", "Weary", "Drained", "Fatigued", "Run down", "Burned out", "Worn out", "Sleepy", "Drowsy", "Overworked", "Stressed", "Debilitated", "Sapped", "Lethargic"],
+            "responses": ["I see, how about drinking a cold coffee?", "take a little nap?", "you are ery hard working man!!"]
+        }
+    ]
+}
