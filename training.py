@@ -45,8 +45,7 @@ for document in documents:
     word_patterns = document[0]
     word_patterns = [lemmatizer.lemmatize(word.lower()) for word in word_patterns]
     for word in words:
-        bag.append(1) if word in word_patterns else bag.append(0)
-
+        bag.append(1) if word in word_patterns else bag.append(0)  # pylint: disable=expression-not-assigned
     output_row = list(output_empty)
     output_row[classes.index(document[1])] = 1
     training.append([bag, output_row])
